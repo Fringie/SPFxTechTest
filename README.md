@@ -1,4 +1,4 @@
-## Scenario
+## Scenario (requirements)
 The finance department of a of an organisation has a requirement to replace their current paper based expenses process with a new online version. The organisation has been using Office 365 for several years and has recently upgraded their intranet (https://modernintranet.sharepoint.com) to use Modern features. All their users are configured within Azure Active Directory and have basic profile information.
 
 ## Task 1
