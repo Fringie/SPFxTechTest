@@ -72,18 +72,4 @@ export default class ExpenseClaimsWebPart extends BaseClientSideWebPart<IExpense
       ]
     };
   }
-
-
-  /**
-   * Get the dropdown options for the "List" option in 
-   
-  private async getListDropdownOptions(){
-    const lists = await sp.web.lists.get();
-    let dropdownOptions = lists.filter(list => list.Hidden === false && !Constants.listsToIgnore.includes(list.Title)).map(list => {
-      return { key: list.Title, text: list.Title };
-    });
-    dropdownOptions.push({ key: "addnewlist", text: "Add new expenses list" });
-    return dropdownOptions;
-  }*/
-
 }
