@@ -3,8 +3,8 @@
   "solution": {
     "name": "Expenses-Form",
     "id": "64cbba0f-79fd-4f79-b658-049a0fce2d91",
-    "version": "1.0.0.2",
-    "includeClientSideAssets": false,
+    "version": "1.0.0.6",
+    "includeClientSideAssets": true,
     "skipFeatureDeployment": true,
     "isDomainIsolated": false
   },
