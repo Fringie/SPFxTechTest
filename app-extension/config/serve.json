@@ -1,0 +1,29 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/core-build/serve.schema.json",
+  "port": 4321,
+  "https": true,
+  "serveConfigurations": {
+    "default": {
+      "pageUrl": "https://zaindev.sharepoint.com/sites/documanage",
+      "customActions": {
+        "0ab68b2e-8b86-4920-b903-d0374759c8fc": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "testMessage": "Test message"
+          }
+        }
+      }
+    },
+    "navigation": {
+      "pageUrl": "https://zaindev.sharepoint.com/sites/documanage",
+      "customActions": {
+        "0ab68b2e-8b86-4920-b903-d0374759c8fc": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "testMessage": "Test message"
+          }
+        }
+      }
+    }
+  }
+}

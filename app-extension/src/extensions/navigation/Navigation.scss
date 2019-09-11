@@ -1,0 +1,34 @@
+//@import '~@microsoft/sp-office-ui-fabric-core/dist/sass/SPFabricCore.scss';
+
+:global .ms-HubNav  {
+    background: aliceblue;
+    padding: 0;
+    height: auto;
+    
+    .ms-HorizontalNavItems > .ms-HorizontalNavItem > button#HorizontalNav8EditLink {
+        display: none;
+    }
+    
+    span > div.ms-MegaMenu-Callout {
+        background: aliceblue;
+    }
+    
+    .ms-HorizontalNav > .ms-FocusZone {
+        width: 66%;
+        margin: 0 auto;
+    }
+    
+    .ms-HubNav-nameLink.ms-HubNav-link {
+        display: none;
+    }
+    
+    button {
+        font-size: 2rem;
+    } 
+
+    .ms-HorizontalNavItems > .ms-HorizontalNavItem {
+        width: 33%;
+        margin-right: 0;
+        padding: 20px 0;
+    }
+}
